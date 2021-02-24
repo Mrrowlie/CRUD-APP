@@ -137,8 +137,8 @@ class Login:
         # Declare variables
         self.username_val = StringVar()
         self.password_val = StringVar()
-        self.username_val.set('Admin')
-        self.password_val.set('CRUDappTest123')
+        self.username_val.set('')
+        self.password_val.set('')
 
         # Create Logo Canvas
         self.img_logo = PhotoImage(file="graphics/logo_small.gif")
@@ -880,7 +880,7 @@ class ViewEditTenant:
 
         # Create Tkinter Toplevel widget
         self.view_edit_container = Toplevel(master)
-        self.view_edit_container.title("Century Wharf - View / Edit Details")
+        self.view_edit_container.title("View / Edit Details")
         self.view_edit_container.geometry("1000x620")
         self.view_edit_container.resizable(False, False)
         self.view_edit_container.config(background="white")
