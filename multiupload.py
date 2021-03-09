@@ -28,8 +28,8 @@ class Database:
         # Make Database Connection Object
         try:
             # Attempt To Make Connection
-            Database.username_val = "Admin"
-            Database.password_val = "CRUDappTest123"
+            Database.username_val = ""
+            Database.password_val = ""
 
             Database.database_client = pymongo.MongoClient(
                 "mongodb+srv://" + Database.username_val + ":" + Database.password_val + "@cluster0.xhsaj.mongodb.net/<dbname>?retryWrites=true&w=majority",
