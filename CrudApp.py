@@ -2071,7 +2071,7 @@ class SearchTenant:
     def __init__(self, master):
 
         self.search_container = Toplevel(master)
-        self.search_container.title("Century Wharf - Search Tenants")
+        self.search_container.title("Search Tenants")
         self.search_container.geometry("1200x620")
         self.search_container.resizable(False, False)
         self.search_container.config(background="white")
